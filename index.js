@@ -5,7 +5,7 @@ function takeANumber(line, newPerson) {
 }
 
 function nowServing(line) {
-  if (line.lenght > 0) {
+  if (line.length > 0) {
     let x = line.shift();
     return x;
   } else {

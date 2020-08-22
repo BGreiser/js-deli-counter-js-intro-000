@@ -16,7 +16,7 @@ function nowServing(line) {
 function currentLine(line) {
   let str = 'The line is currently:'
   for (let i = 0; i < line.length; i++) {
-    str += ` ${i + 1}. ${line[i]}, `
+    str += ` ${i + 1}. ${line[i]},`
   }
   return str;
 }
